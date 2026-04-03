@@ -6,7 +6,7 @@
 #include "esphome.h"
 #include "esphome/core/component.h"
 
-cpp#ifdef USE_ARDUINO
+#ifdef USE_ARDUINO
 #include "WiFiUdp.h"
 #else
 #include "lwip/udp.h"
