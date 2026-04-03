@@ -6,11 +6,7 @@
 #include "esphome.h"
 #include "esphome/core/component.h"
 
-#ifdef USE_ARDUINO
-#include "WiFiUdp.h"
-#else
 #include "lwip/udp.h"
-#endif
 
 
 #define TAG "udpserver"
