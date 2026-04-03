@@ -10,6 +10,7 @@
 
 #define TAG "udpserver"
 
+
 namespace esphome {
   namespace udpserver {
     class OnStringDataTrigger;
