@@ -8,7 +8,6 @@
 
 #include "lwip/udp.h"
 
-
 #define TAG "udpserver"
 
 namespace esphome {
