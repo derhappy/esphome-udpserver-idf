@@ -7,9 +7,10 @@
 #include "esphome.h"
 #include "esphome/core/component.h"
 
-#if defined(USE_SOCKET_IMPL_BSD_SOCKETS) || defined(USE_SOCKET_IMPL_LWIP_SOCKETS)
-#include "esphome/components/socket/socket.h"
-#endif
+#include "lwip/udp.h"
+
+#define TAG "udpserver"
+
 
 namespace esphome {
   namespace udpserver {
